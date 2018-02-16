@@ -1,0 +1,72 @@
+1  QWidget::~QWidget                                qwidget.cpp                    1607 0x7ff8202aa5b5 
+2  QLineEdit::~QLineEdit                            qlineedit.cpp                  290  0x7ff8204c51b2 
+3  QLineEdit::`scalar deleting destructor'          qt_demo                             0x7ff7210e7398 
+4  QObjectPrivate::deleteChildren                   qobject.cpp                    1993 0x7ff81f9d7f01 
+5  QWidget::~QWidget                                qwidget.cpp                    1705 0x7ff8202aaa22 
+6  QWidget::`scalar deleting destructor'            qt_demo                             0x7ff7210e4168 
+7  QObjectPrivate::deleteChildren                   qobject.cpp                    1993 0x7ff81f9d7f01 
+8  QWidget::~QWidget                                qwidget.cpp                    1705 0x7ff8202aaa22 
+9  QFrame::~QFrame                                  qframe.cpp                     264  0x7ff820408342 
+10 QStackedWidget::~QStackedWidget                  qstackedwidget.cpp             147  0x7ff820583df2 
+11 QStackedWidget::`vector deleting destructor'     Qt5Widgetsd                         0x7ff820584676 
+12 QObjectPrivate::deleteChildren                   qobject.cpp                    1993 0x7ff81f9d7f01 
+13 QWidget::~QWidget                                qwidget.cpp                    1705 0x7ff8202aaa22 
+14 QTabWidget::~QTabWidget                          qtabwidget.cpp                 368  0x7ff8205b7ee2 
+15 QTabWidget::`scalar deleting destructor'         qt_demo                             0x7ff7210e73e8 
+16 QObjectPrivate::deleteChildren                   qobject.cpp                    1993 0x7ff81f9d7f01 
+17 QWidget::~QWidget                                qwidget.cpp                    1705 0x7ff8202aaa22 
+18 QFrame::~QFrame                                  qframe.cpp                     264  0x7ff820408342 
+19 QFrame::`scalar deleting destructor'             qt_demo                             0x7ff7210e72f8 
+20 QObjectPrivate::deleteChildren                   qobject.cpp                    1993 0x7ff81f9d7f01 
+21 QWidget::~QWidget                                qwidget.cpp                    1705 0x7ff8202aaa22 
+22 QDialog::~QDialog                                qdialog.cpp                    378  0x7ff8205f12d3 
+23 MyDialog::~MyDialog                              mydialog.cpp                   15   0x7ff7210e5650 
+24 MainWindow::on_actionTest_triggered              mainwindow.cpp                 25   0x7ff7210e3139 
+25 MainWindow::qt_static_metacall                   moc_mainwindow.cpp             76   0x7ff7210e9d03 
+26 MainWindow::qt_metacall                          moc_mainwindow.cpp             105  0x7ff7210e9c67 
+27 QMetaObject::metacall                            qmetaobject.cpp                302  0x7ff81f98c044 
+28 QMetaObject::activate                            qobject.cpp                    3784 0x7ff81f9d0732 
+29 QMetaObject::activate                            qobject.cpp                    3630 0x7ff81f9cfd98 
+30 QAction::triggered                               moc_qaction.cpp                377  0x7ff82022d6bd 
+31 QAction::activate                                qaction.cpp                    1168 0x7ff82022ca22 
+32 QAction::trigger                                 qaction.h                      187  0x7ff82024e855 
+33 QToolButton::nextCheckState                      qtoolbutton.cpp                968  0x7ff8205c2a84 
+34 QAbstractButtonPrivate::click                    qabstractbutton.cpp            398  0x7ff82042f5ed 
+35 QAbstractButton::mouseReleaseEvent               qabstractbutton.cpp            1012 0x7ff82042ec27 
+36 QToolButton::mouseReleaseEvent                   qtoolbutton.cpp                621  0x7ff8205c259c 
+37 QWidget::event                                   qwidget.cpp                    8898 0x7ff8202b66cd 
+38 QAbstractButton::event                           qabstractbutton.cpp            969  0x7ff82042e6bb 
+39 QToolButton::event                               qtoolbutton.cpp                984  0x7ff8205c23f0 
+40 QApplicationPrivate::notify_helper               qapplication.cpp               3732 0x7ff82025adfe 
+41 QApplication::notify                             qapplication.cpp               3208 0x7ff82025608c 
+42 QCoreApplication::notifyInternal2                qcoreapplication.cpp           1050 0x7ff81f97d986 
+43 QCoreApplication::sendSpontaneousEvent           qcoreapplication.h             237  0x7ff81fae0cdb 
+44 QApplicationPrivate::sendMouseEvent              qapplication.cpp               2709 0x7ff82025d4f3 
+45 QWidgetWindow::handleMouseEvent                  qwidgetwindow.cpp              663  0x7ff82030169f 
+46 QWidgetWindow::event                             qwidgetwindow.cpp              281  0x7ff8202ffe10 
+47 QApplicationPrivate::notify_helper               qapplication.cpp               3732 0x7ff82025adfe 
+48 QApplication::notify                             qapplication.cpp               3104 0x7ff820255883 
+49 QCoreApplication::notifyInternal2                qcoreapplication.cpp           1050 0x7ff81f97d986 
+50 QCoreApplication::sendSpontaneousEvent           qcoreapplication.h             237  0x7ff81fae0cdb 
+51 QGuiApplicationPrivate::processMouseEvent        qguiapplication.cpp            1961 0x7ff81e7d8d6e 
+52 QGuiApplicationPrivate::processWindowSystemEvent qguiapplication.cpp            1742 0x7ff81e7db9a3 
+53 QWindowSystemInterface::sendWindowSystemEvents   qwindowsysteminterface.cpp     990  0x7ff81e795f45 
+54 QWindowsGuiEventDispatcher::sendPostedEvents     qwindowsguieventdispatcher.cpp 83   0x7ff81e3c1542 
+55 qt_internal_proc                                 qeventdispatcher_win.cpp       239  0x7ff81fa357cb 
+56 CallWindowProcW                                  USER32                              0x7ff8452ab85d 
+57 DispatchMessageW                                 USER32                              0x7ff8452ab1ef 
+58 QEventDispatcherWin32::processEvents             qeventdispatcher_win.cpp       630  0x7ff81fa3614d 
+59 QWindowsGuiEventDispatcher::processEvents        qwindowsguieventdispatcher.cpp 74   0x7ff81e3c14f4 
+60 QEventLoop::processEvents                        qeventloop.cpp                 135  0x7ff81f977e08 
+61 QEventLoop::exec                                 qeventloop.cpp                 212  0x7ff81f97804e 
+62 QCoreApplication::exec                           qcoreapplication.cpp           1338 0x7ff81f97b49f 
+63 QGuiApplication::exec                            qguiapplication.cpp            1688 0x7ff81e7d62f8 
+64 QApplication::exec                               qapplication.cpp               2918 0x7ff82025538a 
+65 main                                             main.cpp                       10   0x7ff7210e2f19 
+66 WinMain                                          qtmain_win.cpp                 104  0x7ff7210edb5d 
+67 invoke_main                                      exe_common.inl                 107  0x7ff7210eb5ed 
+68 __scrt_common_main_seh                           exe_common.inl                 283  0x7ff7210eb4a7 
+69 __scrt_common_main                               exe_common.inl                 326  0x7ff7210eb36e 
+70 WinMainCRTStartup                                exe_winmain.cpp                17   0x7ff7210eb679 
+71 BaseThreadInitThunk                              KERNEL32                            0x7ff845201fe4 
+72 RtlUserThreadStart                               ntdll                               0x7ff84791efc1 

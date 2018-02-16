@@ -1,0 +1,128 @@
+.  0  Id: 106c.16f8 Suspend: 1 Teb: 00000001`180e0000 Unfrozen
+Child-SP          RetAddr           Call Site
+00000001`182f8cb0 00007ff8`204c51b2 Qt5Widgetsd!QWidget::~QWidget(void)+0x295 [c:\users\qt\work\qt\qtbase\src\widgets\kernel\qwidget.cpp @ 1607]
+00000001`182f8de0 00007ff7`210e7398 Qt5Widgetsd!QLineEdit::~QLineEdit(void)+0x32 [c:\users\qt\work\qt\qtbase\src\widgets\widgets\qlineedit.cpp @ 290]
+00000001`182f8e10 00007ff8`1f9d7f01 qt_demo!QLineEdit::`scalar deleting destructor'(void)+0x18
+00000001`182f8e40 00007ff8`202aaa22 Qt5Cored!QObjectPrivate::deleteChildren(void)+0xf1 [c:\users\qt\work\qt\qtbase\src\corelib\kernel\qobject.cpp @ 1993]
+00000001`182f8e90 00007ff7`210e4168 Qt5Widgetsd!QWidget::~QWidget(void)+0x702 [c:\users\qt\work\qt\qtbase\src\widgets\kernel\qwidget.cpp @ 1705]
+00000001`182f8fc0 00007ff8`1f9d7f01 qt_demo!QWidget::`scalar deleting destructor'(void)+0x18
+00000001`182f8ff0 00007ff8`202aaa22 Qt5Cored!QObjectPrivate::deleteChildren(void)+0xf1 [c:\users\qt\work\qt\qtbase\src\corelib\kernel\qobject.cpp @ 1993]
+00000001`182f9040 00007ff8`20408342 Qt5Widgetsd!QWidget::~QWidget(void)+0x702 [c:\users\qt\work\qt\qtbase\src\widgets\kernel\qwidget.cpp @ 1705]
+00000001`182f9170 00007ff8`20583df2 Qt5Widgetsd!QFrame::~QFrame(void)+0x32 [c:\users\qt\work\qt\qtbase\src\widgets\widgets\qframe.cpp @ 264]
+00000001`182f91a0 00007ff8`20584676 Qt5Widgetsd!QStackedWidget::~QStackedWidget(void)+0x32 [c:\users\qt\work\qt\qtbase\src\widgets\widgets\qstackedwidget.cpp @ 147]
+00000001`182f91d0 00007ff8`1f9d7f01 Qt5Widgetsd!QStackedWidget::`vector deleting destructor'(void)+0x76
+00000001`182f9200 00007ff8`202aaa22 Qt5Cored!QObjectPrivate::deleteChildren(void)+0xf1 [c:\users\qt\work\qt\qtbase\src\corelib\kernel\qobject.cpp @ 1993]
+00000001`182f9250 00007ff8`205b7ee2 Qt5Widgetsd!QWidget::~QWidget(void)+0x702 [c:\users\qt\work\qt\qtbase\src\widgets\kernel\qwidget.cpp @ 1705]
+00000001`182f9380 00007ff7`210e73e8 Qt5Widgetsd!QTabWidget::~QTabWidget(void)+0x32 [c:\users\qt\work\qt\qtbase\src\widgets\widgets\qtabwidget.cpp @ 368]
+00000001`182f93b0 00007ff8`1f9d7f01 qt_demo!QTabWidget::`scalar deleting destructor'(void)+0x18
+00000001`182f93e0 00007ff8`202aaa22 Qt5Cored!QObjectPrivate::deleteChildren(void)+0xf1 [c:\users\qt\work\qt\qtbase\src\corelib\kernel\qobject.cpp @ 1993]
+00000001`182f9430 00007ff8`20408342 Qt5Widgetsd!QWidget::~QWidget(void)+0x702 [c:\users\qt\work\qt\qtbase\src\widgets\kernel\qwidget.cpp @ 1705]
+00000001`182f9560 00007ff7`210e72f8 Qt5Widgetsd!QFrame::~QFrame(void)+0x32 [c:\users\qt\work\qt\qtbase\src\widgets\widgets\qframe.cpp @ 264]
+00000001`182f9590 00007ff8`1f9d7f01 qt_demo!QFrame::`scalar deleting destructor'(void)+0x18
+00000001`182f95c0 00007ff8`202aaa22 Qt5Cored!QObjectPrivate::deleteChildren(void)+0xf1 [c:\users\qt\work\qt\qtbase\src\corelib\kernel\qobject.cpp @ 1993]
+00000001`182f9610 00007ff8`205f12d3 Qt5Widgetsd!QWidget::~QWidget(void)+0x702 [c:\users\qt\work\qt\qtbase\src\widgets\kernel\qwidget.cpp @ 1705]
+00000001`182f9740 00007ff7`210e5650 Qt5Widgetsd!QDialog::~QDialog(void)+0x43 [c:\users\qt\work\qt\qtbase\src\widgets\dialogs\qdialog.cpp @ 378]
+00000001`182f9770 00007ff7`210e3139 qt_demo!MyDialog::~MyDialog(void)+0x50 [c:\dev\projects\qt-demo\mydialog.cpp @ 15]
+00000001`182f97b0 00007ff7`210e9d03 qt_demo!MainWindow::on_actionTest_triggered(void)+0x69 [c:\dev\projects\qt-demo\mainwindow.cpp @ 25]
+00000001`182f9840 00007ff7`210e9c67 qt_demo!MainWindow::qt_static_metacall(class QObject * _o = 0x00000001`182ff9b0, QMetaObject::Call _c = InvokeMetaMethod (0n0), int _id = 0n0, void ** _a = 0x00000001`182f9b20)+0x43 [c:\dev\projects\build-qt-demo-desktop_qt_5_10_1_msvc2017_64bit-debug\debug\moc_mainwindow.cpp @ 76]
+00000001`182f9880 00007ff8`1f98c044 qt_demo!MainWindow::qt_metacall(QMetaObject::Call _c = InvokeMetaMethod (0n0), int _id = 0n0, void ** _a = 0x00000001`182f9b20)+0x67 [c:\dev\projects\build-qt-demo-desktop_qt_5_10_1_msvc2017_64bit-debug\debug\moc_mainwindow.cpp @ 105]
+00000001`182f98b0 00007ff8`1f9d0732 Qt5Cored!QMetaObject::metacall(class QObject * object = 0x00000001`182ff9b0, QMetaObject::Call cl = InvokeMetaMethod (0n0), int idx = 0n38, void ** argv = 0x00000001`182f9b20)+0x94 [c:\users\qt\work\qt\qtbase\src\corelib\kernel\qmetaobject.cpp @ 302]
+00000001`182f9900 00007ff8`1f9cfd98 Qt5Cored!QMetaObject::activate(class QObject * sender = 0x000001bb`28c6edd0, int signalOffset = 0n3, int local_signal_index = 0n1, void ** argv = 0x00000001`182f9b20)+0x982 [c:\users\qt\work\qt\qtbase\src\corelib\kernel\qobject.cpp @ 3784]
+00000001`182f9ad0 00007ff8`2022d6bd Qt5Cored!QMetaObject::activate(class QObject * sender = 0x000001bb`28c6edd0, struct QMetaObject * m = 0x00007ff8`20c13a20, int local_signal_index = 0n1, void ** argv = 0x00000001`182f9b20)+0x38 [c:\users\qt\work\qt\qtbase\src\corelib\kernel\qobject.cpp @ 3630]
+00000001`182f9b00 00007ff8`2022ca22 Qt5Widgetsd!QAction::triggered(bool _t1 = false)+0x3d [c:\users\qt\work\qt\qtbase\src\widgets\.moc\debug\moc_qaction.cpp @ 377]
+00000001`182f9b40 00007ff8`2024e855 Qt5Widgetsd!QAction::activate(QAction::ActionEvent event = Trigger (0n0))+0x142 [c:\users\qt\work\qt\qtbase\src\widgets\kernel\qaction.cpp @ 1168]
+00000001`182f9b90 00007ff8`205c2a84 Qt5Widgetsd!QAction::trigger(void)+0x15 [c:\users\qt\work\qt\qtbase\src\widgets\kernel\qaction.h @ 187]
+00000001`182f9bc0 00007ff8`2042f5ed Qt5Widgetsd!QToolButton::nextCheckState(void)+0x44 [c:\users\qt\work\qt\qtbase\src\widgets\widgets\qtoolbutton.cpp @ 968]
+00000001`182f9c00 00007ff8`2042ec27 Qt5Widgetsd!QAbstractButtonPrivate::click(void)+0xed [c:\users\qt\work\qt\qtbase\src\widgets\widgets\qabstractbutton.cpp @ 398]
+00000001`182f9c50 00007ff8`205c259c Qt5Widgetsd!QAbstractButton::mouseReleaseEvent(class QMouseEvent * e = 0x00000001`182fb040)+0xd7 [c:\users\qt\work\qt\qtbase\src\widgets\widgets\qabstractbutton.cpp @ 1012]
+00000001`182f9ca0 00007ff8`202b66cd Qt5Widgetsd!QToolButton::mouseReleaseEvent(class QMouseEvent * e = 0x00000001`182fb040)+0x2c [c:\users\qt\work\qt\qtbase\src\widgets\widgets\qtoolbutton.cpp @ 621]
+00000001`182f9ce0 00007ff8`2042e6bb Qt5Widgetsd!QWidget::event(class QEvent * event = 0x00000001`182fb040)+0x13d [c:\users\qt\work\qt\qtbase\src\widgets\kernel\qwidget.cpp @ 8898]
+00000001`182f9fe0 00007ff8`205c23f0 Qt5Widgetsd!QAbstractButton::event(class QEvent * e = 0x00000001`182fb040)+0x13b [c:\users\qt\work\qt\qtbase\src\widgets\widgets\qabstractbutton.cpp @ 969]
+00000001`182fa030 00007ff8`2025adfe Qt5Widgetsd!QToolButton::event(class QEvent * event = 0x00000001`182fb040)+0x80 [c:\users\qt\work\qt\qtbase\src\widgets\widgets\qtoolbutton.cpp @ 984]
+00000001`182fa080 00007ff8`2025608c Qt5Widgetsd!QApplicationPrivate::notify_helper(class QObject * receiver = 0x000001bb`28cd28e0, class QEvent * e = 0x00000001`182fb040)+0x17e [c:\users\qt\work\qt\qtbase\src\widgets\kernel\qapplication.cpp @ 3732]
+00000001`182fa0e0 00007ff8`1f97d986 Qt5Widgetsd!QApplication::notify(class QObject * receiver = 0x000001bb`28cd28e0, class QEvent * e = 0x00000001`182fb040)+0xcec [c:\users\qt\work\qt\qtbase\src\widgets\kernel\qapplication.cpp @ 3208]
+00000001`182faab0 00007ff8`1fae0cdb Qt5Cored!QCoreApplication::notifyInternal2(class QObject * receiver = 0x000001bb`28cd28e0, class QEvent * event = 0x00000001`182fb040)+0x116 [c:\users\qt\work\qt\qtbase\src\corelib\kernel\qcoreapplication.cpp @ 1050]
+00000001`182fab30 00007ff8`2025d4f3 Qt5Cored!QCoreApplication::sendSpontaneousEvent(class QObject * receiver = 0x000001bb`28cd28e0, class QEvent * event = 0x00000001`182fb040)+0x3b [c:\users\qt\work\qt\qtbase\src\corelib\kernel\qcoreapplication.h @ 237]
+00000001`182fab60 00007ff8`2030169f Qt5Widgetsd!QApplicationPrivate::sendMouseEvent(class QWidget * receiver = 0x000001bb`28cd28e0, class QMouseEvent * event = 0x00000001`182fb040, class QWidget * alienWidget = 0x000001bb`28cd28e0, class QWidget * nativeWidget = 0x00000001`182ff9b0, class QWidget ** buttonDown = 0x00007ff8`20c17ac0, class QPointer<QWidget> * lastMouseReceiver = 0x00007ff8`20c17ad8, bool spontaneous = true)+0x413 [c:\users\qt\work\qt\qtbase\src\widgets\kernel\qapplication.cpp @ 2709]
+00000001`182fac80 00007ff8`202ffe10 Qt5Widgetsd!QWidgetWindow::handleMouseEvent(class QMouseEvent * event = 0x00000001`182fbe50)+0xfaf [c:\users\qt\work\qt\qtbase\src\widgets\kernel\qwidgetwindow.cpp @ 663]
+00000001`182fb140 00007ff8`2025adfe Qt5Widgetsd!QWidgetWindow::event(class QEvent * event = 0x00000001`182fbe50)+0x230 [c:\users\qt\work\qt\qtbase\src\widgets\kernel\qwidgetwindow.cpp @ 281]
+00000001`182fb1c0 00007ff8`20255883 Qt5Widgetsd!QApplicationPrivate::notify_helper(class QObject * receiver = 0x000001bb`28c851c0, class QEvent * e = 0x00000001`182fbe50)+0x17e [c:\users\qt\work\qt\qtbase\src\widgets\kernel\qapplication.cpp @ 3732]
+00000001`182fb220 00007ff8`1f97d986 Qt5Widgetsd!QApplication::notify(class QObject * receiver = 0x000001bb`28c851c0, class QEvent * e = 0x00000001`182fbe50)+0x4e3 [c:\users\qt\work\qt\qtbase\src\widgets\kernel\qapplication.cpp @ 3104]
+00000001`182fbbf0 00007ff8`1fae0cdb Qt5Cored!QCoreApplication::notifyInternal2(class QObject * receiver = 0x000001bb`28c851c0, class QEvent * event = 0x00000001`182fbe50)+0x116 [c:\users\qt\work\qt\qtbase\src\corelib\kernel\qcoreapplication.cpp @ 1050]
+00000001`182fbc70 00007ff8`1e7d8d6e Qt5Cored!QCoreApplication::sendSpontaneousEvent(class QObject * receiver = 0x000001bb`28c851c0, class QEvent * event = 0x00000001`182fbe50)+0x3b [c:\users\qt\work\qt\qtbase\src\corelib\kernel\qcoreapplication.h @ 237]
+00000001`182fbca0 00007ff8`1e7db9a3 Qt5Guid!QGuiApplicationPrivate::processMouseEvent(class QWindowSystemInterfacePrivate::MouseEvent * e = 0x000001bb`28c85be0)+0x86e [c:\users\qt\work\qt\qtbase\src\gui\kernel\qguiapplication.cpp @ 1961]
+00000001`182fc110 00007ff8`1e795f45 Qt5Guid!QGuiApplicationPrivate::processWindowSystemEvent(class QWindowSystemInterfacePrivate::WindowSystemEvent * e = 0x000001bb`28c85be0)+0xa3 [c:\users\qt\work\qt\qtbase\src\gui\kernel\qguiapplication.cpp @ 1742]
+00000001`182fc190 00007ff8`1e3c1542 Qt5Guid!QWindowSystemInterface::sendWindowSystemEvents(class QFlags<enum QEventLoop::ProcessEventsFlag> flags = class QFlags<enum QEventLoop::ProcessEventsFlag>)+0xb5 [c:\users\qt\work\qt\qtbase\src\gui\kernel\qwindowsysteminterface.cpp @ 990]
+00000001`182fc200 00007ff8`1fa357cb qwindowsd!QWindowsGuiEventDispatcher::sendPostedEvents(void)+0x22 [c:\users\qt\work\qt\qtbase\src\platformsupport\eventdispatchers\qwindowsguieventdispatcher.cpp @ 83]
+00000001`182fc230 00007ff8`452ab85d Qt5Cored!qt_internal_proc(struct HWND__ * hwnd = 0x00000000`00060252 0+0+136x39 'QEventDispatcherWin32_Internal_Widget140703653780908', unsigned int message = 0x401, unsigned int64 wp = 0, int64 lp = 0n0)+0x62b [c:\users\qt\work\qt\qtbase\src\corelib\kernel\qeventdispatcher_win.cpp @ 239]
+00000001`182fc3a0 00007ff8`452ab1ef USER32!CallWindowProcW+0x4dd
+00000001`182fc510 00007ff8`1fa3614d USER32!DispatchMessageW+0x1af
+00000001`182fc590 00007ff8`1e3c14f4 Qt5Cored!QEventDispatcherWin32::processEvents(class QFlags<enum QEventLoop::ProcessEventsFlag> flags = class QFlags<enum QEventLoop::ProcessEventsFlag>)+0x5bd [c:\users\qt\work\qt\qtbase\src\corelib\kernel\qeventdispatcher_win.cpp @ 630]
+00000001`182ff730 00007ff8`1f977e08 qwindowsd!QWindowsGuiEventDispatcher::processEvents(class QFlags<enum QEventLoop::ProcessEventsFlag> flags = class QFlags<enum QEventLoop::ProcessEventsFlag>)+0x34 [c:\users\qt\work\qt\qtbase\src\platformsupport\eventdispatchers\qwindowsguieventdispatcher.cpp @ 74]
+00000001`182ff770 00007ff8`1f97804e Qt5Cored!QEventLoop::processEvents(class QFlags<enum QEventLoop::ProcessEventsFlag> flags = class QFlags<enum QEventLoop::ProcessEventsFlag>)+0x68 [c:\users\qt\work\qt\qtbase\src\corelib\kernel\qeventloop.cpp @ 135]
+00000001`182ff7b0 00007ff8`1f97b49f Qt5Cored!QEventLoop::exec(class QFlags<enum QEventLoop::ProcessEventsFlag> flags = class QFlags<enum QEventLoop::ProcessEventsFlag>)+0x18e [c:\users\qt\work\qt\qtbase\src\corelib\kernel\qeventloop.cpp @ 212]
+00000001`182ff860 00007ff8`1e7d62f8 Qt5Cored!QCoreApplication::exec(void)+0x15f [c:\users\qt\work\qt\qtbase\src\corelib\kernel\qcoreapplication.cpp @ 1338]
+00000001`182ff910 00007ff8`2025538a Qt5Guid!QGuiApplication::exec(void)+0x18 [c:\users\qt\work\qt\qtbase\src\gui\kernel\qguiapplication.cpp @ 1688]
+00000001`182ff940 00007ff7`210e2f19 Qt5Widgetsd!QApplication::exec(void)+0xa [c:\users\qt\work\qt\qtbase\src\widgets\kernel\qapplication.cpp @ 2918]
+00000001`182ff970 00007ff7`210edb5d qt_demo!main(int argc = 0n1, char ** argv = 0x000001bb`28c2f5e0)+0x59 [c:\dev\projects\qt-demo\main.cpp @ 10]
+00000001`182ffa00 00007ff7`210eb5ed qt_demo!WinMain(struct HINSTANCE__ * __formal = 0x00007ff7`210e0000, struct HINSTANCE__ * __formal = 0x00000000`00000000, char * __formal = 0x000001bb`28c266d6 "", int __formal = 0n10)+0xed [c:\users\qt\work\qt\qtbase\src\winmain\qtmain_win.cpp @ 104]
+00000001`182ffa80 00007ff7`210eb4a7 qt_demo!invoke_main(void)+0x2d [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl @ 107]
+00000001`182ffac0 00007ff7`210eb36e qt_demo!__scrt_common_main_seh(void)+0x127 [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl @ 283]
+00000001`182ffb20 00007ff7`210eb679 qt_demo!__scrt_common_main(void)+0xe [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl @ 326]
+00000001`182ffb50 00007ff8`45201fe4 qt_demo!WinMainCRTStartup(void)+0x9 [f:\dd\vctools\crt\vcstartup\src\startup\exe_winmain.cpp @ 17]
+00000001`182ffb80 00007ff8`4791efc1 KERNEL32!BaseThreadInitThunk+0x14
+00000001`182ffbb0 00000000`00000000 ntdll!RtlUserThreadStart+0x21
+
+   1  Id: 106c.5ac Suspend: 1 Teb: 00000001`180e2000 Unfrozen
+Child-SP          RetAddr           Call Site
+00000001`183ffa38 00007ff8`478e49dd ntdll!NtWaitForWorkViaWorkerFactory+0x14
+00000001`183ffa40 00007ff8`45201fe4 ntdll!RtlSetThreadWorkOnBehalfTicket+0x78d
+00000001`183ffdd0 00007ff8`4791efc1 KERNEL32!BaseThreadInitThunk+0x14
+00000001`183ffe00 00000000`00000000 ntdll!RtlUserThreadStart+0x21
+
+   2  Id: 106c.1214 Suspend: 1 Teb: 00000001`180e4000 Unfrozen
+Child-SP          RetAddr           Call Site
+00000001`184ffa38 00007ff8`478e49dd ntdll!NtWaitForWorkViaWorkerFactory+0x14
+00000001`184ffa40 00007ff8`45201fe4 ntdll!RtlSetThreadWorkOnBehalfTicket+0x78d
+00000001`184ffdd0 00007ff8`4791efc1 KERNEL32!BaseThreadInitThunk+0x14
+00000001`184ffe00 00000000`00000000 ntdll!RtlUserThreadStart+0x21
+
+   3  Id: 106c.15e0 Suspend: 1 Teb: 00000001`180e6000 Unfrozen
+Child-SP          RetAddr           Call Site
+00000001`185ff7d8 00007ff8`478e49dd ntdll!NtWaitForWorkViaWorkerFactory+0x14
+00000001`185ff7e0 00007ff8`45201fe4 ntdll!RtlSetThreadWorkOnBehalfTicket+0x78d
+00000001`185ffb70 00007ff8`4791efc1 KERNEL32!BaseThreadInitThunk+0x14
+00000001`185ffba0 00000000`00000000 ntdll!RtlUserThreadStart+0x21
+
+   4  Id: 106c.15b8 Suspend: 1 Teb: 00000001`180e8000 Unfrozen
+Child-SP          RetAddr           Call Site
+00000001`186ff548 00007ff8`478e49dd ntdll!NtWaitForWorkViaWorkerFactory+0x14
+00000001`186ff550 00007ff8`45201fe4 ntdll!RtlSetThreadWorkOnBehalfTicket+0x78d
+00000001`186ff8e0 00007ff8`4791efc1 KERNEL32!BaseThreadInitThunk+0x14
+00000001`186ff910 00000000`00000000 ntdll!RtlUserThreadStart+0x21
+
+   5  Id: 106c.1630 Suspend: 1 Teb: 00000001`180ea000 Unfrozen
+Child-SP          RetAddr           Call Site
+00000001`187ff868 00007ff8`478e49dd ntdll!NtWaitForWorkViaWorkerFactory+0x14
+00000001`187ff870 00007ff8`45201fe4 ntdll!RtlSetThreadWorkOnBehalfTicket+0x78d
+00000001`187ffc00 00007ff8`4791efc1 KERNEL32!BaseThreadInitThunk+0x14
+00000001`187ffc30 00000000`00000000 ntdll!RtlUserThreadStart+0x21
+
+   6  Id: 106c.1928 Suspend: 1 Teb: 00000001`180ec000 Unfrozen
+Child-SP          RetAddr           Call Site
+00000001`188ff358 00007ff8`44b6a9c6 ntdll!NtWaitForMultipleObjects+0x14
+*** ERROR: Symbol file could not be found.  Defaulted to export symbols for C:\Windows\System32\combase.dll - 
+00000001`188ff360 00007ff8`4721aa73 KERNELBASE!WaitForMultipleObjectsEx+0x106
+00000001`188ff660 00007ff8`4721ce00 combase!RoGetApartmentIdentifier+0x983
+00000001`188ff8f0 00007ff8`4721a931 combase!RoGetApartmentIdentifier+0x2d10
+00000001`188ff940 00007ff8`4725157c combase!RoGetApartmentIdentifier+0x841
+00000001`188ff9a0 00007ff8`45201fe4 combase!CoRegisterMessageFilter+0x20c
+00000001`188ff9d0 00007ff8`4791efc1 KERNEL32!BaseThreadInitThunk+0x14
+00000001`188ffa00 00000000`00000000 ntdll!RtlUserThreadStart+0x21
+
+   7  Id: 106c.268 Suspend: 1 Teb: 00000001`180ee000 Unfrozen
+Child-SP          RetAddr           Call Site
+00000001`189ff908 00007ff8`41fd27e0 ntdll!NtWaitForMultipleObjects+0x14
+00000001`189ff910 00007ff8`45201fe4 WINMM!PlaySoundW+0xef0
+00000001`189ffa90 00007ff8`4791efc1 KERNEL32!BaseThreadInitThunk+0x14
+00000001`189ffac0 00000000`00000000 ntdll!RtlUserThreadStart+0x21
